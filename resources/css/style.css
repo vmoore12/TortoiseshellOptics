@@ -1,0 +1,156 @@
+html{
+  font-size: 18px;
+  line-height: 1.4;
+}
+body {
+  font-family: helvetica;
+  margin: 0;
+  padding: 0;
+
+}
+.fixed-header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+header {
+  font-size: 1rem;
+  width: 960px;
+  margin: 1rem auto 0;
+  line-height: 1rem;
+  background-color: cadetblue;
+  color: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+  vertical-align: middle;
+}
+nav {
+  padding-right: 2rem;
+}
+
+nav a {
+  color: white;
+  padding-left: 2rem;
+  text-decoration: none;
+
+}
+
+#banner-section {
+  height: 30rem;
+  width: 100vw;
+  background-image: url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner-section .quote {
+  margin: 0 auto;
+  width: 960px;
+  height: 100%;
+  position: relative;
+
+}
+
+#banner-section h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  position: absolute;
+  top: 13.5rem;
+  right: -2rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+
+#offer {
+  height: 8rem;
+  padding-top: 3rem;
+
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  margin-right: 6rem;
+  text-align: center;
+}
+
+ .descriptions {
+   line-height: 1.4rem;
+}
+
+#image-paper img {
+  width: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+#image-ruler img {
+  width: 5rem;
+  margin-bottom: 3.75rem;
+}
+
+#image-truck img {
+  width: 5rem;
+  margin-bottom: 3.5rem;
+}
+
+
+#info {
+  width: 100%;
+  margin-left: 10rem;
+  padding-top: 5rem;
+  /* had to change to see a diffrence */
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  width: 35%;
+  line-height: 1.5rem;
+  margin-right: 5%;
+  padding-bottom: 5rem;
+}
+
+.headline {
+  font-size: 1rem;
+  width: 10rem;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  color: white;
+  background-color: cadetblue;
+}
+
+h3 {
+  margin: 0;
+}
+/* Footer */
+
+footer {
+  font-size: 1rem;
+  width: 960px;
+  margin: 1rem auto 0;
+  height: 9.25rem;
+  background-color: azure;
+}
+
+.bottom-header {
+  padding-top: 4rem;
+  display: flex;
+}
+
+#logo-black img {
+  height: 1.5rem;
+  padding: 0 1rem 0 4rem;
+  vertical-align: middle;
+}
+
+/* .bottom-header span {
+  padding-left: 1rem;
+} */
